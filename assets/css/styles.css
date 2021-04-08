@@ -32,6 +32,10 @@ nav {
   z-index: 1;
 }
 
+article {
+  padding: 0 10vw;
+}
+
 #hero {
   background: url("../img/bg.jpeg") no-repeat center/cover;
   height: 100vh;
@@ -48,14 +52,10 @@ nav {
   font-family: "Special Elite", cursive;
 }
 
-article {
-  padding: 0 10vw;
-}
-
 #hello > article {
-  height: 48vh;
   background: url("../img/beans_icon.png") no-repeat center/cover;
   background-color: #fff;
+  height: 48vh;
 }
 
 #hello h1 {
@@ -127,7 +127,6 @@ footer h2 {
 
 #menu a {
   display: block;
-  color: #000;
   text-align: center;
 }
 
@@ -169,19 +168,19 @@ footer h2 {
 }
 
 #story aside > img {
-  width: 50%;
-  height: 30%;
+  width: 70%;
+  height: 60%;
   position: absolute;
   left: 0;
   bottom: 18%;
 }
 
 #catering aside > img {
-  width: 50%;
-  height: 30%;
+  width: 70%;
+  height: 60%;
   position: absolute;
   bottom: 14%;
-  right: 0;
+  right: -25%;
 }
 
 #story aside:nth-of-type(1),
@@ -205,12 +204,9 @@ footer h2 {
 #cakes a {
   border: 2px solid black;
   padding: 5px;
-  color: #000;
 }
 
-#catering a:hover,
-#cakes a:hover,
-#menu a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -233,7 +229,7 @@ footer h2 {
 #cakes aside:nth-of-type(1) {
   text-align: right;
   padding-left: 20%;
-  padding-top: 13%;
+  padding-top: 11%;
 }
 
 footer {
